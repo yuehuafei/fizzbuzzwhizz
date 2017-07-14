@@ -59,14 +59,14 @@ describe('pos', () => {
   })
 
   it('when number contains 3,times of 3 ,should return fizz',()=>{
-    let num =300
+    let num =3
     const actualResult=fizzBuzzWhizz(num);
     let expectedResult = 'fizz';
     expect(actualResult).toEqual(expectedResult);
   })
 
   it('when number contains 3,times of 5 ,should return fizz',()=>{
-    let num =30
+    let num =300
     const actualResult=fizzBuzzWhizz(num);
     let expectedResult = 'fizz';
     expect(actualResult).toEqual(expectedResult);

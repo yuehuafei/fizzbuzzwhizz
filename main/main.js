@@ -13,10 +13,10 @@ function fizzBuzzWhizz(num) {
     strs+='fizz';
   }
   if(num%5==0){
-          strs+='buzz';
+    strs+='buzz';
   }
   if(num%7==0){
-          strs+='whizz';
+    strs+='whizz';
   }
   if(num%3!=0&&num%5!=0&&num%7!=0){
     return num;
@@ -24,7 +24,7 @@ function fizzBuzzWhizz(num) {
   return strs;
 }
 for(var i=1;i<110;i++)
-{
-  var s=fizzBuzzWhizz(i);
-  console.log(s);
-}
+ {
+ var s=fizzBuzzWhizz(i);
+ console.log(s);
+ }
